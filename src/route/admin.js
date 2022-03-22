@@ -8,6 +8,7 @@ route.post("/create", createAdminController)
 
 
 
+
 //export part
 module.exports = route
 

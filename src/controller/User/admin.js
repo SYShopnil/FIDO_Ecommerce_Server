@@ -7,6 +7,7 @@ const { id } = require("../../../validation/User/adminValidation");
 const {singleImageUploader} = require("../../../utils/singleFileUploader.js")
 const nodemailer = require('nodemailer')
 const jwt = require('jsonwebtoken')
+const Hello = require('../../model/fake')
 
 //env file data
 const jwtSecreteKey = process.env.JWT_TOKEN //get the token security from env file
@@ -189,8 +190,6 @@ const createAdminController = async (req, res) => {
         })
     }
 }
-
-
 module.exports = {
     createAdminController
 }
