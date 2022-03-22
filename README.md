@@ -1,6 +1,6 @@
 # FIDO Ecommerce
 
-This is a Ecommerce management system demo project for practicing perpose.
+This is a Ecommerce management system demo project for practicing purpose.
 
 ## Key Technologies
 
